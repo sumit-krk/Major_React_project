@@ -18,7 +18,6 @@ export default function App() {
      let result=name.map((e)=>{
         return e.name
       })
-      console.log("res",result)
       setShowName([...result])
     }
     else
