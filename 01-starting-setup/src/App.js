@@ -1,7 +1,10 @@
+import Child from "./child";
+
 function App() {
   return (
     <div>
-      <h2></h2>
+      <h2>hi</h2>
+      <Child child='kumar' />
     </div>
   );
 }
